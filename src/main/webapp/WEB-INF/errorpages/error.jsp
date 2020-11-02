@@ -34,6 +34,7 @@
 <!-- Begin page content -->
 <main role="main" class="flex-shrink-0">
     <!-- Content start -->
+    <!-- ERROR PAGE -->
     <div class="container">
         <h1 class="mt-5">${pageContext.response.status}</h1>
         <p class="lead"><%=request.getAttribute("javax.servlet.error.message")%></p>
@@ -48,6 +49,5 @@
     <!-- Footer end -->
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
 </body>
 </html>
