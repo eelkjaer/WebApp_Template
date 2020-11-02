@@ -29,3 +29,4 @@ src/main/resources/
 src/main/webapp/META-INF/
 src/main/webapp/assets/
 src/test/
+/target/
