@@ -5,6 +5,13 @@
 
 > IntelliJ Project template for Web applications using JSP
 
+### Install instructions
+***
+1) Execute "init.sql" on your Database
+2) Configure Database settings in Database.java
+3) <b><u>Have fun</u></b>
+***
+
 ## Author
 
 👤 **Emil Elkjær Nielsen**
