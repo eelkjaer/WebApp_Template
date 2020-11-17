@@ -31,3 +31,4 @@ src/main/webapp/assets/
 src/test/
 /target/
 target/
+target/*
