@@ -3,9 +3,10 @@ package api;
 import domain.items.InvalidItem;
 import domain.items.Item;
 import domain.items.ItemNotFound;
+import domain.items.ItemRepository;
 import infrastructure.DBItems;
 
-public class Webapp {
+public class Webapp implements ItemRepository {
     private final static int VERSION = 1;
     private final static String TITLE = "WebApp Template";
     
